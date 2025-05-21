@@ -1,0 +1,38 @@
+/* Universal selector to set base font and background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ID selector */
+#main-header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  border-bottom: 5px solid #2c3e50;
+}
+
+/* Class selector */
+.tagline {
+  font-style: italic;
+  color: #dff9fb;
+}
+
+/* Tag selector */
+p {
+  line-height: 1.6;
+  margin: 10px 20px;
+}
+
+/* Style an image */
+img {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border: 3px solid #2980b9;
+  border-radius: 10px;
+  max-width: 100%;
+}
